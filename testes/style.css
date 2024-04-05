@@ -1,0 +1,36 @@
+@charset "pt-8";
+
+#central{
+    
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.068);
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#botoes{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+#paragrafo{
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#botoes:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 2px gray;
+    transition: .2s;
+}
